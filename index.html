@@ -1,40 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+         <!-- Meta data -->
+         <meta charset="UTF-8">
+         <meta name="description" content="My Portfolio.">
+         <meta name="keywords" content="Developer | Photographer">
+         <meta name="author" content="Wasim Akram">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+         <title>Wasim Akram</title>
+         
+  <!-- Favicons -->
+  <link href="images/icon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/w3.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:wght@300&display=swap">
+  <link href="css/style.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/lightslider.min.css" />
+  <link type="text/css" rel="stylesheet" href="css/timeline.css" />
+
+  <!-- manifest file -->
+  <link rel="manifest" href="Wasim.webmanifest">
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M9GPJ6H');</script>
+  <!-- End Google Tag Manager -->
 </head>
+
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9GPJ6H" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-    <header>
-        <h1>Your Website</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <!-- Add more sections as needed -->
-        </ul>
+<!-- Nav Bar -->
+  <div>
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#">Wasim Akram</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#contact">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+  </div>
 
-    <main>
-        <section id="section1">
-            <h2>Section 1</h2>
-            <p>This is the content of Section 1.</p>
-        </section>
+<!-- Intro Section -->
+  <section id="home" class="intro route bg-image">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">Wasim Akram</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Software Engineer,Photographer,Problem Solver,Ambitious</span><strong class="text-slider"></strong><span class="typed-cursor" style="animation-iteration-count: 0;"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <section id="section2">
-            <h2>Section 2</h2>
-            <p>This is the content of Section 2.</p>
-        </section>
-        <!-- Add more sections as needed -->
-    </main>
+<!-- About Section -->
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container" >
+      <div class="row">
+        <div  id="innerabout"  class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
 
+              <div class="col-md-5">
+                <div class="title-box-2">
+                  <h5 class="title-left title-a">About me</h5>
+                </div>
+                <div class="about-img w3-center"><img src="images/meh.JPG" class="img-fluid w3-circle" alt="profile">
+                </div>
+              </div>
+
+              <div class="col-md-7">
+                <div class="about-mf pt-4 pt-md-0">
+                  <br>
+                  <br>
+
+                  <p class="lead">Hello! I'm Wasim Akram, a passionate software engineer originally from the enchanting town of Darjeeling, India.</p>
+
+                  <p class="lead">I hold a Bachelor's degree in Computer Science and Engineering from Heritage Institute of Technology, Kolkata. One of the highlights of my journey includes participating in the NASA International Space Apps hackathon, where I not only showcased my technical prowess but also had the honor of standing second. This experience fueled my enthusiasm for pushing the boundaries of innovation and problem-solving.</p>
+
+                  <p class="lead">My expertise lies in crafting robust and efficient software solutions. I take pride in my ability to navigate complex projects with precision, leveraging a keen eye for detail to ensure their success.</p>
+
+                  <p>Beyond coding, I find joy in capturing moments through photography. It's a creative outlet that allows me to see the world from different perspectives. This blend of technical proficiency and a creative mindset defines my approach to both work and life.</p>
+
+                  
+                  <br />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">PROJECTS</h3>
+            <p class="subtitle-a">Here are some of the projects I've worked on.</p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Section for Projects -->
+      <ul id="parent_project" class="row lightSlider">
+  
+      </ul>
+  
+      <br /><br />
+    </div>
+  </section>
+
+<!-- Experience Section -->
+<section id="experience" class="portfolio-mf sect-pt4 route">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="title-box text-center">
+                  <h4 class="title-a">Work Experience</h4>
+                  <p class="exp_p">My diverse experience so far.</p>
+                  <div class="line-mf"></div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row"> <!-- Add this row div -->
+          <div class="col-md-12 col-sm-12">
+              <div class="timeline-area wow fadeInUp">
+                  <div id="award-timeline" class="all-timelines wow fadeInUp">
+
+                      <div class="single-timeline d-flex-2">
+                          <div class="timeline-blank"></div>
+                          <div class="timeline-text d-flex-2">
+                              <span>
+                                  <!-- <hr> -->
+                                  <b>System Engineer, Tata Consultancy Services (November 2023 - Present)</b>
+                                  <hr>
+                                  <div class="center-text">Journey yet to begin...</div>
+                                  <br><br>
+                                 
+                                  <!-- <hr> -->
+                                  <b>Software Engineer, Indus Net Technologies (March 2021 - June 2023)</b>
+                                  <hr>
+                                  <!-- JOURNEY... -->
+                                  <b>Project: IndusInd Admin Panel</b>
+                                  <br>
+                                  <ul>
+                                    <li>Built for the administrative purpose of IBL. Fetches transaction data from other modules for display. Can edit, update, modify, and download data in Excel or PDF. Ability to rerun or re-fire failed cron jobs or other events like sending SMS, emails, etc.</li>
+                                    
+                                  </ul>
+                            
+                                  <!-- Add Project: IndusInd Account Upgrade -->
+                                  <b>Project: IndusInd Account Upgrade</b>
+                                  <br>
+                                  <ul>
+                                    <li>Option to upgrade accounts in the IndusInd application. Users can request their accounts be upgraded to the bank.</li>
+                                    
+                                  </ul>
+                            
+                                  <!-- Add Project: ChqBook -->
+                                  <b>Project: ChqBook</b>
+                                  <br>
+                                  <ul>
+                                    <li>Leading fintech app with more than 60 fintech features. Developed modules like core banking account creation, overdraft facility, etc.</li>
+                                    
+                                  </ul>
+                            
+                                  <!-- Add Project: ITC Global Auditing -->
+                                  <b>Project: ITC Global Auditing</b>
+                                  <br>
+                                  <ul>
+                                    <li>Developed a comprehensive global auditing system with CRUD APIs, pagination, data collection, sending emails, generating Excel reports, and optimizing database queries and caching strategies for improved system performance.</li>
+                                    
+                                  </ul>
+                                  <!--  -->
+                                  <br><br>
+                              </span>
+                              <div class="t-square"></div>
+                          </div>
+                      </div>
+
+                      
+
+                      <!-- Add other timeline entries as needed -->
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <br /><br />
+  </div>
+</section>
+
+  <!-- Blogs Section -->
+  <!-- <section id="blogs" class="blog-mf sect-pt4 route">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-box text-center">
+            <a href="blog/"><h3 class="title-a">Blogs</h3>
+            <p class="subtitle-a">Sharing my experience with the world.</p></a>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <ul id="parent_blog" class="row lightSlider">
+      </ul>
+
+      <a href="blog/"><button class="w3-btn w3-black">All Blogs</button></a>
+      <br /><br /><br /><br />
+    </div>
+  </section> -->
+
+  <!-- <div class="homescreen-button"></div> -->
+
+<!--/ Footer Section /-->
+  <section id="contact" class="parallax-mf footer-paralax bg-image route" style="background-image: url(images/bg.jpg)">
+    <div class="overlay-mf"></div>
     <footer>
-        <p>&copy; 2023 Your Website</p>
+      <div class="container">
+        <h3>Let's stay connected!</h3>
+      <hr>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright"><strong>Wasim Akram</strong></p>
+              <div class="credits">
+                <p>
+                  <a target="_blank" href="https://www.linkedin.com/in/wasim-akram-9ba2b5147/" class="fa m fa-linkedin"></a>
+                  <a target="_blank" href="https://github.com/wasim-infinity" class="fa m fa-github"></a>
+                  <a target="_blank" href="https://www.instagram.com/wasiminfinity/" class="fa m fa-instagram"></a>
+                  
+                  <a target="_blank" href="https://www.facebook.com/wasim.darj?mibextid=LQQJ4d" class="fa n fa-facebook" style="padding: 0.6em 0.8em"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+  </section>
+
+<!-- Back to top -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- -->
+
+<!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+
+<!-- Main Javascript File -->
+  <script src="serviceworker.js"></script>
+  <script src="js/manifest.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/fetchall.js"></script>
+  <script src="js/lightslider.min.js"></script>
+  <script type="text/javascript">
+    if (screen.orientation.type !== 'portrait-primary') {
+      $(".lightSlider").lightSlider({
+        item: 3,
+        autoWidth: false,
+        slideMove: 1, // slidemove will be 1 if loop is true
+        slideMargin: 20,
+
+        pauseOnHover: true,
+        addClass: '',
+        mode: "slide",
+        useCSS: true,
+        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+        easing: 'linear', //'for jquery animation',////
+
+        speed: 500, //ms'
+        auto: true,
+        loop: true,
+        slideEndAnimation: true,
+        pause: 2000,
+
+        keyPress: false,
+        controls: true,
+        prevHtml: '',
+        nextHtml: '',
+
+        rtl: false,
+        adaptiveHeight: false,
+
+        vertical: false,
+        verticalHeight: 500,
+        vThumbWidth: 100,
+
+        thumbItem: 10,
+        pager: true,
+        gallery: false,
+        galleryMargin: 5,
+        thumbMargin: 5,
+        currentPagerPosition: 'middle',
+
+        enableTouch: true,
+        enableDrag: true,
+        freeMove: true,
+        swipeThreshold: 40,
+
+        responsive: [],
+
+        onBeforeStart: function (el) { },
+        onSliderLoad: function (el) { },
+        onBeforeSlide: function (el) { },
+        onAfterSlide: function (el) { },
+        onBeforeNextSlide: function (el) { },
+        onBeforePrevSlide: function (el) { }
+      });
+    }
+    else {
+      $(".lightSlider").lightSlider({
+        item: 1,
+        autoWidth: false,
+        slideMove: 1, // slidemove will be 1 if loop is true
+        slideMargin: 20,
+        pauseOnHover: true,
+
+        addClass: '',
+        mode: "slide",
+        useCSS: true,
+        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+        easing: 'linear', //'for jquery animation',////
+
+        speed: 500, //ms'
+        auto: true,
+        loop: true,
+        slideEndAnimation: true,
+        pause: 2000,
+
+        keyPress: false,
+        controls: true,
+        prevHtml: '',
+        nextHtml: '',
+
+        rtl: false,
+        adaptiveHeight: false,
+
+        vertical: false,
+        verticalHeight: 500,
+        vThumbWidth: 100,
+
+        thumbItem: 10,
+        pager: false,
+        gallery: false,
+        galleryMargin: 5,
+        thumbMargin: 5,
+        currentPagerPosition: 'middle',
+
+        enableTouch: true,
+        enableDrag: true,
+        freeMove: true,
+        swipeThreshold: 40,
+
+        responsive: [],
+
+        onBeforeStart: function (el) { },
+        onSliderLoad: function (el) { },
+        onBeforeSlide: function (el) { },
+        onAfterSlide: function (el) { },
+        onBeforeNextSlide: function (el) { },
+        onBeforePrevSlide: function (el) { }
+      });
+    }
+  </script>
 
 </body>
 </html>

@@ -1,0 +1,16 @@
+{
+    "background_color": "black",
+    "theme_color": "black",
+    "description": "Personal Portfolio of Wasim Akram",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/app_icon.png",
+            "sizes": "400x400",
+            "type": "image/png"
+        }
+    ],
+    "name": "Wasim Akram",
+    "short_name": "Innovative!",
+    "start_url": "index.html"
+}
